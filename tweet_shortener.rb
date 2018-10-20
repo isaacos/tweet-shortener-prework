@@ -4,6 +4,9 @@ def dictionary
     'to': '2',
     'two': '2',
     'too': '2',
-    'be': 'b'
+    'be': 'b',
+    'you': 'u',
+    'at': '@',
+    'and': '&'
   }
 end
