@@ -10,21 +10,19 @@ def dictionary
     'and'=> '&'
   }
 end
-
 def word_substituter (tweet)
   words_array = tweet.split(' ')
+  new_array = []
   
-  
-  words_array.map! {|word|
+  words_array.each do |word|
     if dictionary.keys.include? (word)
-      word = dictionary[word]}
-   
-   end
+      new_array << dictionary[word]
+    else 
+      new_array << word
+    end
   end 
-end
-  words_array.join(' ')
-end
-
+  new_array.join(' ')
+end 
 def bulk_tweet_shortener(array_of_tweets)
  
   array_of_tweets.each do |tweet|
