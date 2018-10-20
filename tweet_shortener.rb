@@ -17,6 +17,7 @@ def word_substituter (tweet)
   words_array.each do |word|
     if dictionary.keys.include? (word)
       word = dictionary['word']
+      puts word
     end
   end 
   words_array.join(' ')
