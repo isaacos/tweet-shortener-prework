@@ -15,9 +15,9 @@ def word_substituter (tweet)
   words_array = tweet.split(' ')
   
   
-  words_array.map! do |word|
+  words_array.map! {|word|
     if dictionary.keys.include? (word)
-      word = dictionary[word]
+      word = dictionary[word]}
    
     end
   end 
