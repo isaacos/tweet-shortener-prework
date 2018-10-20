@@ -8,7 +8,7 @@ def dictionary
     'you'=> 'u',
     'at'=> '@',
     'and'=> '&',
-    'for' => '4'
+    'for' => '4',
     'four' => '4'
   }
 end
