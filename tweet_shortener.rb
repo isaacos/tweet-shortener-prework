@@ -10,3 +10,13 @@ def dictionary
     'and': '&'
   }
 end
+
+def word_substituter (tweet)
+  words_array = tweet.split(' ')
+  
+  words_array.each do |word|
+    if 
+    end
+  end 
+  
+end
